@@ -1,0 +1,11 @@
+.container {
+    margin: 100px auto;
+    @include flexSpace (space-between, 87%);
+
+    .col {
+        width: 30%;
+        height: 200px;
+        background-color: $Негр;
+    }
+
+}

@@ -1,0 +1,39 @@
+@import "./constants.scss";
+@import "./normalize.scss";
+
+.header {
+    max-width: 100%;
+    background: $Негр;
+    color: $БелыйНегр;
+
+    .nav {
+        margin: 0 auto;
+        @include flexSpace(space-between, 87%);
+
+        padding: {
+            top: 20px;
+            bottom: 20px;
+        }
+
+        ;
+
+        &_navbar {
+            @include flexSpace(space-between, 60%);
+
+            li {
+                a {
+                    color: $БелыйНегр;
+                    transition: 0.3s all linear;
+
+                    &:hover {
+                        color: $Помидор;
+
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@import "./container.scss";

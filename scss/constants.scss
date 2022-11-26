@@ -1,0 +1,14 @@
+$Негр:#252525;
+$БелыйНегр: #fff4f4;
+$Помидор:#ff694f;
+
+%flexBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin flexSpace ($justifValue, $width) {
+    display: flex;
+    justify-content: $justifValue;
+    width: $width;
+}    
